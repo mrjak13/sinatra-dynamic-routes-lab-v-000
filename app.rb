@@ -40,9 +40,10 @@ class App < Sinatra::Base
     elsif params[:operation] == "divide"
       @value = number1/number2
       # "#{value}"
+      binding.pry
     end
     @value
-    binding.pry
+    
   end
 
 end
