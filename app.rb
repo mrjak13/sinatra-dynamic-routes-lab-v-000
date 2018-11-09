@@ -30,18 +30,16 @@ class App < Sinatra::Base
     number2 = params[:number2].to_i
     if params[:operation] == "add"
       @value = number1+number2
-      "#{value}"
+      # "#{value}"
     elsif params[:operation] == "subtract"
       @value = number1-number2
-      "#{value}"
+      # "#{value}"
     elsif params[:operation] == "multiply"
       @value = number1*number2
-      "#{value}"
+      # "#{value}"
     elsif params[:operation] == "divide"
       @value = number1/number2
-      "#{value}"
-    else
-      "I didn't understand that"
+      # "#{value}"    
     end
     @value
   end
