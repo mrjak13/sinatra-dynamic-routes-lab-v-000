@@ -40,6 +40,7 @@ class App < Sinatra::Base
       "#{value}"
     else
       "I didn't understand that"
+    end
   end
 
 end
