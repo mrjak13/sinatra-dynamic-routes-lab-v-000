@@ -43,7 +43,7 @@ class App < Sinatra::Base
       binding.pry
     end
     @value
-    
+
   end
 
 end
