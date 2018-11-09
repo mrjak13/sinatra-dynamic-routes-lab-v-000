@@ -39,7 +39,7 @@ class App < Sinatra::Base
       # "#{value}"
     elsif params[:operation] == "divide"
       @value = number1/number2
-      # "#{value}"    
+      # "#{value}"
     end
     @value
   end
