@@ -31,16 +31,16 @@ class App < Sinatra::Base
     # binding.pry
     if params[:operation] == "add"
       @value = number1+number2
-      "#{value}"
+      # "#{value}"
     elsif params[:operation] == "subtract"
       @value = number1-number2
-      "#{value}"
+      # "#{value}"
     elsif params[:operation] == "multiply"
       @value = number1*number2
-      "#{value}"
+      # "#{value}"
     elsif params[:operation] == "divide"
       @value = number1/number2
-      "#{value}"
+      # "#{value}"
     end
     "#{@value}"
   end
