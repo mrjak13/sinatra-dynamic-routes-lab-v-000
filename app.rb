@@ -42,7 +42,7 @@ class App < Sinatra::Base
       @value = number1/number2
       "#{value}"
     end
-    @value
+    # @value
   end
 
 end
