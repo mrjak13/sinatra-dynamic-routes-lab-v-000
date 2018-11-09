@@ -42,6 +42,7 @@ class App < Sinatra::Base
       # "#{value}"
     end
     @value
+    binding.pry
   end
 
 end
