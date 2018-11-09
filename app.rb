@@ -32,7 +32,7 @@ class App < Sinatra::Base
     elsif params[:operation] == "subtract"
       value = number1-number 2
       "#{value}"
-    elsif params[:operation == "multiply"
+    elsif params[:operation] == "multiply"
       value = number1*number 2
       "#{value}"
     elsif params[:operation] == "divide"
